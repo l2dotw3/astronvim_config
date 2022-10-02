@@ -10,15 +10,15 @@ return {
     "html-lsp",
     "css-lsp",
     "emmet-ls",
+    "gopls",
 
     -- Formatter
     "prettierd",
     "shfmt",
     "stylua",
-    "black",
 
     -- Dap
-    "debugpy",
+    "delve",
     "cpptools",
   },
 }

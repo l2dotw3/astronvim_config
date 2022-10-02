@@ -248,11 +248,7 @@ return {
     },
   },
   i = {
-    ["<C-[>"] = {
-      function()
-        vim.notify("Use Capslock Key", "warn", { title = "Change your habit" })
-      end,
-    },
+    ["<C-[>"] = "<Esc>",
     ["<C-S>"] = { "<Esc>:w<cr>i", desc = "Save the file" },
     [","] = ",<c-g>u",
     ["."] = ".<c-g>u",
